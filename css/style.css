@@ -47,35 +47,102 @@ table {
 	border-spacing: 0;
 }
 
-/* Global */
-
-/* *{
-	font-family: Georgia, 'Times New Roman', Times, serif;
-} */
-
+/* MAIN NAV AND FOOTER */
 
 body {
-	margin: 0 auto;
-	width: 100%;
+	background-color: rgb(190, 190, 190);
 	
 }
 
-table {
-	border: 1px solid white
+.wrapper {
+	height: 1000px;
+	
+	
 }
 
-/* nav div {
-	border: 1px solid white
-} */
 nav div {
 	
 	padding: 0 !important;
 	margin: 0 !important;
 }
 
-.main1{
-	/* border-bottom: 1px solid grey; */
+a {
+	text-decoration: none !important;
+	color: grey;
+}
+
+.nav-item2 {
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+}
+
+
+
+div .logo{
+	background-color: rgb(24, 165, 165);
+}
+
+nav {
+	border-bottom: 1px solid grey;
+	background-color: rgb(255, 255, 255);
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	position: fixed;
+	bottom: 0;
+	border-top: 4px solid rgb(24, 165, 165);
+}
+
+/* Portfolio */
+
+.port {
+	max-width: 950px;
+	width: 100%;
+	margin-top: 25px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	background-size: cover;
+	position: relative;
+	padding: 0;
+	
 	
 	
 }
 
+.portbox {
+ width: 225px;	
+ height: 275px;
+ border: 1px solid black;
+ align-content: flex-end;
+ margin: 6px;
+ background-size: cover;
+ position: relative;
+
+ 
+}
+
+span {
+	margin-top: 40px;
+	
+}
+
+
+
+
+.imgword {
+	position: absolute;
+	bottom: 15px;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	padding: 2px;
+	width: 100%;
+	background-color: rgb(24, 165, 165);
+}
+
+/* About */
