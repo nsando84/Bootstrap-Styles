@@ -106,7 +106,7 @@ footer {
 /* Portfolio */
 
 .port {
-	max-width: 933px;
+	max-width: 500px;
 	width: 98%;
 	margin-top: 25px;
 	display: flex;
@@ -115,6 +115,7 @@ footer {
 	background-size: cover;
 	position: relative;
 	padding: 0;
+	
 	
 	
 	
@@ -152,12 +153,13 @@ footer {
 
 @media screen and (max-width: 600px) {
 	.portbox {
-	  margin: auto;
+	  margin: auto !important;
 	  margin-bottom: 4px;
 	  
 	}
 
 	.port {
 		width: 90%;
+		
 	}
   }
